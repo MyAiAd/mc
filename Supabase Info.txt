@@ -1,0 +1,29 @@
+Project name
+affiliate-platform
+
+Project ID
+<YOUR_PROJECT_ID>
+
+Project URL
+https://<YOUR_PROJECT_ID>.supabase.co
+
+anon public key
+<YOUR_SUPABASE_ANON_KEY>
+
+service_role secret
+<YOUR_SUPABASE_ANON_KEY>
+
+direct connection
+postgresql://postgres:[YOUR-PASSWORD]@db.<YOUR_PROJECT_ID>.supabase.co:5432/postgres
+
+Please verify but I think the passowrd is 
+<YOUR_DATABASE_PASSWORD>
+
+User UID
+<YOUR_USER_UID>
+
+User email
+<YOUR_EMAIL>
+
+JWT Secret
+<YOUR_JWT_SECRET>

@@ -1,0 +1,32 @@
+Great! So the Data Sync page, at the bottom, in a section called "API Configuration Status" shows this section:
+
+
+GoAffPro API
+Required environment variables:
+
+GOAFFPRO_API_KEY
+GOAFFPRO_BASE_URL
+
+GHL API
+Required environment variables:
+
+GHL_API_KEY
+GHL_LOCATION_ID
+
+But I cannot tell if you are alerting me to the fact they have not yet been added or if I am meant to see them reflected there.
+
+Meanwhile.. here is some key data (below). I have not confirmed if the Supabase data is a match to what we have (I think it is) but the others in the list I do not know if you have seen them. Will this help us to resolve the Data Sync question I have?
+
+VITE_SUPABASE_URL=http://localhost:54321
+VITE_SUPABASE_ANON_KEY=<YOUR_JWT_TOKEN>
+VITE_SUPABASE_SERVICE_ROLE_KEY=<YOUR_JWT_TOKEN>
+VITE_GOAFFPRO_ACCESS_TOKEN=<YOUR_GOAFFPRO_ACCESS_TOKEN>
+VITE_GOAFFPRO_PUBLIC_TOKEN=<YOUR_GOAFFPRO_PUBLIC_TOKEN>
+MIGHTY_NETWORKS_ZAPIER=<YOUR_MIGHTY_NETWORKS_ZAPIER>
+
+
+GHL Location API Key
+<YOUR_JWT_TOKEN>
+
+GHL Location ID
+<YOUR_GHL_LOCATION_ID>
